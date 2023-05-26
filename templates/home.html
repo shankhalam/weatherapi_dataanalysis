@@ -7,7 +7,11 @@
 <body>
     <h1>Weather Data API</h1>
     <p>URL format: "https://127.0.0.1:5000/api/v1/station/date"</p>
-    <p>URL format: "https://127.0.0.1:5000/api/v1/10/1999-10-25"</p>
+    <p>For single station single date: "https://127.0.0.1:5000/api/v1/10/1999-10-25"</p>
+    <p>For Station wise data: "https://127.0.0.1:5000/api/v1/10"</p>
+    <p>
+        {{data|safe}}
+    </p>
 
 </body>
 </html>
